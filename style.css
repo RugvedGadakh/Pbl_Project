@@ -43,26 +43,28 @@ header .logo{
     border-radius: 20px;
     color: black;
 }
-.btn-r{
+.btn-r, .search, .publish{
     padding: 6px 40px;
     background: #2bb4d4;
     color: white;
-    border: 1px  solid black;
     border-radius: 6px;
+    border: none;
     cursor: pointer;
 }
-.btn-r:hover{
-    background: white;
-    color: #2bb4d4;
+.btn-r:hover, .search:hover ,.publish:hover{
+    /* border: 1px  solid black; */
+    background: dodgerblue;
+    color: #ffff;
 }
-.input-box{
+.input-nav-location{
     display: inline-block;
     padding: 2px 18px;
     border: 1px solid;
     margin-left: 40px;
+    border-radius: 30px;
     width: 300pxs;
 }
-.input-box input{
+.input-nav-location input{
     border: none;
     padding-left: 15px;
     outline: none;
@@ -98,9 +100,9 @@ header .logo{
 }
 
 .active:hover{
-    background: grey;
-    color: #5ce1e6;
-    border: 1px solid black;
+    background: dodgerblue;
+    color: #ffff;
+    /* border: 1px solid black; */
 }
 
 
@@ -109,7 +111,48 @@ header .logo{
     width: 100%;
 }
 
+
+/* Section */
+#Main_header_hero {
+    background-image: linear-gradient(to bottom, rgb(56, 201, 227), white);
+}
+
+.input_col {
+    padding: 90px;
+}
+
+
+.date_row {
+    padding: 0;
+}
+
+.date_row > input {
+    width: 100%;
+}
+
+.date_person > div {
+    margin-right: auto;
+}
+
+.input_col > .row {
+    margin: 1rem;
+}
+
+.first_col {
+    padding: 80px;
+    padding-top: 10%;
+}
+
+.location_input {
+    padding: 0;
+    width: 80%;
+    border: 0.1rem solid white;
+    background-color: white;
+    box-shadow: 0 0 10px 0px rgb(56, 56, 56);
+    border-radius: 5px;
+}
 /* features */
+
 #features{
     padding: 5% 5%;
     background-color: white;
@@ -117,11 +160,13 @@ header .logo{
     position: relative;
 
 }
+
 h3{
     font-weight: bolder;
     color: #2e2e2e;
     padding-bottom: 40px;
 }
+
 .discription{
     text-align: left;
     padding: 5%;
@@ -129,10 +174,58 @@ h3{
     font-weight: bold;
     font-size: 15px;
 }
+
 .icon{
     color: black;
     margin-bottom: 1rem;
 }
 .icon:hover{
     color: grey;
+}
+
+.icon_div {
+    text-align: center;
+}
+
+.verification-icon{
+    width: 60px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.direction-icon{
+    width: 55px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+/* publish-ride */
+
+#publish_ride {
+    margin: 0px;
+    background-image: linear-gradient(to bottom, white,rgb(180, 219, 220,1));
+}
+
+.publish-ride-img{
+    width: 90%;
+}
+
+.publish-div1 ,.publish-div2, .publish-discription{
+    margin: 0px;
+    padding: 0px;
+}
+
+.publish-discription{
+    padding-top: 20%;
+    padding-left: 10%;
+    width: 65%;
+    text-align: left;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 15px;
+
+}
+
+.publish-img-div{
+    padding-left: 60px;
 }
