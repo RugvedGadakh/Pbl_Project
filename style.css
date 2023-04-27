@@ -87,6 +87,7 @@ header .logo{
     list-style: none;
     float: left;
     padding: 13px 30px;
+    cursor: pointer;
 }
 .bottom-nav li a{
     text-decoration: none;
@@ -98,7 +99,6 @@ header .logo{
 
 .bottom-nav > li a:hover {
     color: white;
-    cursor: pointer;
 }
 .active a{
     color: white;
