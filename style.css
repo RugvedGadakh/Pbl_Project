@@ -163,7 +163,7 @@ header .logo{
     background-color: white;
     z-index: 1;
     position: relative;
-    padding-bottom: 10px;
+    padding-bottom: 4%;
 
 }
 
@@ -209,9 +209,10 @@ h3{
 
 hr{
     margin: auto;
-    border: solid black 2px;
+    border: dotted black 5px;
     border-bottom: none;
-    width: 50%   
+    width: 30%
+    
 }
 
 #publish_ride {
