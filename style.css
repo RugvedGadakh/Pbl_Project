@@ -88,8 +88,10 @@ header .logo{
 .item{
     color: black;
 }
-.item:hover{
+
+.bottom-nav > li:hover {
     color: white;
+    cursor: pointer;
 }
 .active a{
     color: white;
