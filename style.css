@@ -50,7 +50,7 @@ header .logo{
     border-radius: 20px;
     color: black;
 }
-.btn-r, .publish{
+.btn-r, .publish-btn{
     padding: 6px 40px;
     background: #2bb4d4;
     color: white;
@@ -131,10 +131,25 @@ header .logo{
     border-radius: 8px;
 }
 
-#search-ride-btn {
+.input-group-text {
+    background-color: #2bb4d4;
+    color: white;
+}
+
+#search-ride-btn, .btn {
     width: 100%;
     background: #2bb4d4;
     color: white;
+    border: none;
+}
+
+#search-ride-btn:hover {
+    background: #38c8e9;
+}
+
+.form-label {
+    color: rgb(2, 91, 180);
+    font-weight: bold;
 }
 
 

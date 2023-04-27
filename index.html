@@ -58,7 +58,7 @@
                 <ul>
                     <li><a href="/search"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
                     <li><a href="/publish"><i class="fa fa-circle-plus"></i> Publish</a></a></li>
-                    <li><button class="btn-r btn">Sign in</button></li>
+                    <li><button class="btn-r">Sign in</button></li>
                 </ul>
             </div>
         </div>
@@ -90,21 +90,29 @@
                         <label for="" class="form-label">Enter Ride Details:</label>
                     </div>
 
-                    <div>
+                    <div class="input-group">
+                        <label for="from-location" class="input-group-text"><i class="fa-solid fa-location-crosshairs"></i>
+                        </label>
                         <input type="text" class="form-control" id="from-location" placeholder="Leaving From...">
                     </div>
-
-                    <div>
+                    
+                    <div class="input-group">
+                        <label for="to-location" class="input-group-text"><i class="fa-solid fa-location-crosshairs"></i>
+                        </label>
                         <input type="text" class="form-control" id="to-location" placeholder="Going To...">
                     </div>
-
-                    <div class="col-6 pl-2 pr-0">
+                    
+                    <div class="col-6 pl-2 pr-0 input-group">
                         <input type="text" class="form-control" id="pick-date" placeholder="Select Date"
-                            onfocus="this.type = 'Date'" onblur="if(!this.value)this.type='text'">
+                        onfocus="this.type = 'Date'" onblur="if(!this.value)this.type='text'">
+                        <label for="pick-date" class="input-group-text"><i class="fa-solid fa-calendar"></i>
+                        </label>
                     </div>
-
-                    <div class="col-6 pl-3 pr-2">
-                        <input type="number" class="form-control" id="passenger-count" placeholder="Persons Count">
+                    
+                    <div class="col-6 pl-3 pr-2  input-group">
+                        <input type="number" class="form-control" id="passenger-count" placeholder="Persons...">
+                        <label for="passenger-count" class="input-group-text"><i class="fa-solid fa-user"></i>
+                        </label>
                     </div>
 
                     <div class="col-12">
@@ -170,7 +178,7 @@
                         reduce traffic congestion, and lower your individual carbon emissions. Plus, carpooling can be a
                         great way to meet new people and make your daily commute more enjoyable.</p>
                     <div>
-                        <button class="publish">Publish a Ride !</button>
+                        <button class="publish-btn">Publish a Ride !</button>
                     </div>
                 </div>
             </div>
