@@ -137,6 +137,7 @@ header .logo{
 }
 
 #search-ride-btn {
+    width: 100%;
     background: #2bb4d4;
     color: white;
 }
