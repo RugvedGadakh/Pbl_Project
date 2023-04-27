@@ -96,7 +96,7 @@ header .logo{
     color: black;
 }
 
-.bottom-nav > li:hover {
+.bottom-nav > li a:hover {
     color: white;
     cursor: pointer;
 }
@@ -108,11 +108,6 @@ header .logo{
     background: rgb(101, 215, 235);
 }
 
-.active:hover{
-    background: dodgerblue;
-    color: #ffff;
-    /* border: 1px solid black; */
-}
 
 
 /* title */

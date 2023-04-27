@@ -43,6 +43,8 @@
 <body>
     <!-- navbar -->
     <header class="navbar" style="padding: 0px; background: #b4dbdc;">
+
+        <!-- Top Navbar -->
         <div class="nav-top">
             <div>
                 <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
@@ -60,12 +62,18 @@
                 </ul>
             </div>
         </div>
+
+        <!-- Bottom Navbar -->
         <div class="nav-bottom">
             <ul class="bottom-nav">
-                <li class="active"><a class="item" href="/"><i class="fa-solid fa-house"></i> &nbsp;Home</a></li>
-                <li><a class="item" href="/about"><i class="fa fa-exclamation-circle"></i> &nbsp;About</a></li>
-                <li><a class="item" href="/services"><i class="fa-solid fa-gear"></i> &nbsp;Our Services</a></li>
-                <li><a class="item" href="/contact"><i class="fa-solid fa-user"></i> &nbsp;Contact</a></li>
+                <li class="active btm-nav-li-item" onclick="setActivePage(0)"><a class="item" href="#"><i
+                            class="fa-solid fa-house"></i> &nbsp;Home</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(1)"><a class="item" href="#"><i
+                            class="fa fa-exclamation-circle"></i> &nbsp;About</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(2)"><a class="item" href="#"><i
+                            class="fa-solid fa-gear"></i> &nbsp;Our Services</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(3)"><a class="item" href="#"><i
+                            class="fa-solid fa-user"></i> &nbsp;Contact</a></li>
             </ul>
         </div>
     </header>
