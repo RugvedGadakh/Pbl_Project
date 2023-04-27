@@ -50,7 +50,7 @@ header .logo{
     border-radius: 20px;
     color: black;
 }
-.btn-r, .search, .publish{
+.btn-r, .publish{
     padding: 6px 40px;
     background: #2bb4d4;
     color: white;
@@ -58,7 +58,7 @@ header .logo{
     border: none;
     cursor: pointer;
 }
-.btn-r:hover, .search:hover ,.publish:hover{
+.btn-r:hover, .search-ride-btn:hover ,.publish:hover{
     /* border: 1px  solid black; */
     background: dodgerblue;
     color: #ffff;
@@ -121,45 +121,30 @@ header .logo{
 }
 
 
-/* Section */
-#Main_header_hero {
+
+
+
+
+
+/* title-section Commited-by: Sanjyot*/
+#title-section {
     background-image: linear-gradient(to bottom, rgb(101, 215, 235), white);
 }
 
-.input_col {
-    padding: 90px;
+#user-input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+#search-ride-btn {
+    background: #2bb4d4;
+    color: white;
 }
 
 
-.date_row {
-    padding: 0;
-}
 
-.date_row > input {
-    width: 100%;
-}
 
-.date_person > div {
-    margin-right: auto;
-}
 
-.input_col > .row {
-    margin: 1rem;
-}
-
-.first_col {
-    padding: 80px;
-    padding-top: 10%;
-}
-
-.location_input {
-    padding: 0;
-    width: 80%;
-    border: 0.1rem solid white;
-    background-color: white;
-    box-shadow: 0 0 10px 0px rgb(56, 56, 56);
-    border-radius: 5px;
-}
 /* features */
 
 #features{

@@ -56,7 +56,7 @@
                 <ul>
                     <li><a href="/search"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
                     <li><a href="/publish"><i class="fa fa-circle-plus"></i> Publish</a></a></li>
-                    <li><button class="btn-r">Sign in</button></li>
+                    <li><button class="btn-r btn">Sign in</button></li>
                 </ul>
             </div>
         </div>
@@ -71,39 +71,41 @@
     </header>
 
     <!-- title -->
-    <section id="Main_header_hero">
+    <section id="title-section">
+
         <div class="row container-fluid">
-            <div class="col-6 first_col">
-                <div class="location_input input_col">
-                    <div class="row">
-                        Enter Ride Details:
+
+            <div class="col-6 container-fluid p-5">
+
+                <form class="row g-3 m-5 p-4 shadow" id="user-input">
+                    <div class="container">
+                        <label for="" class="form-label">Enter Ride Details:</label>
                     </div>
 
-                    <div class="row">
-                        <span class="input_img"></span>
-                        <input type="text" placeholder="Leaving From...">
+                    <div>
+                        <input type="text" class="form-control" id="from-location" placeholder="Leaving From...">
                     </div>
 
-                    <div class="row">
-                        <span class="input_img"></span>
-                        <input type="text" placeholder="Going To...">
+                    <div>
+                        <input type="text" class="form-control" id="to-location" placeholder="Going To...">
                     </div>
 
-                    <div class="row date_person">
-                        <div class="col-7 date_row">
-                            <input class="date" type="text" onfocus="this.type = 'Date'"
-                                onblur="if(!this.value)this.type='text'" placeholder="Select Date">
-                        </div>
-                        <div class="col-4 date_row">
-                            <input type="number" min="1" oninput="this.value = passengerNumber(this.value)">
-                        </div>
+                    <div class="col-6 pl-2 pr-0">
+                        <input type="text" class="form-control" id="pick-date" placeholder="Select Date"
+                            onfocus="this.type = 'Date'" onblur="if(!this.value)this.type='text'">
                     </div>
 
-                    <div class="row submit_location">
-                        <button class="search">Search</button>
+                    <div class="col-6 pl-3 pr-2">
+                        <input type="number" class="form-control" id="passenger-count" placeholder="Persons Count">
                     </div>
-                </div>
+
+                    <div class="col-12">
+                        <button class="btn" id="search-ride-btn" type="search">Search Ride</button>
+                    </div>
+                </form>
+
             </div>
+
             <div class="col-6">
                 <img class="title-img" src="images/pbl_title.png" alt="Title Image">
             </div>
@@ -143,7 +145,7 @@
     </section>
 
     <!-- publish a ride -->
-    
+
     <section id="publish_ride">
         <div class="row container-fluid">
             <div class="col-6 publish-div1">
