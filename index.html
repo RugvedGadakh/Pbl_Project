@@ -54,18 +54,18 @@
 
             <div class="top-items">
                 <ul>
-                    <li><a href="#"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
-                    <li><a href="#"><i class="fa fa-circle-plus"></i> Publish</a></a></li>
+                    <li><a href="/search"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+                    <li><a href="/publish"><i class="fa fa-circle-plus"></i> Publish</a></a></li>
                     <li><button class="btn-r">Sign in</button></li>
                 </ul>
             </div>
         </div>
         <div class="nav-bottom">
             <ul class="bottom-nav">
-                <li class="active"><a class="item"><i class="fa-solid fa-house"></i> &nbsp;Home</a></li>
-                <li><a class="item"><i class="fa fa-exclamation-circle"></i> &nbsp;About</a></li>
-                <li><a class="item"><i class="fa-solid fa-gear"></i> &nbsp;Our Services</a></li>
-                <li><a class="item"><i class="fa-solid fa-user"></i> &nbsp;Contact</a></li>
+                <li class="active"><a class="item" href="/"><i class="fa-solid fa-house"></i> &nbsp;Home</a></li>
+                <li><a class="item" href="/about"><i class="fa fa-exclamation-circle"></i> &nbsp;About</a></li>
+                <li><a class="item" href="/services"><i class="fa-solid fa-gear"></i> &nbsp;Our Services</a></li>
+                <li><a class="item" href="/contact"><i class="fa-solid fa-user"></i> &nbsp;Contact</a></li>
             </ul>
         </div>
     </header>
@@ -78,26 +78,27 @@
                     <div class="row">
                         Enter Ride Details:
                     </div>
-    
+
                     <div class="row">
                         <span class="input_img"></span>
                         <input type="text" placeholder="Leaving From...">
                     </div>
-    
+
                     <div class="row">
                         <span class="input_img"></span>
                         <input type="text" placeholder="Going To...">
                     </div>
-    
+
                     <div class="row date_person">
                         <div class="col-7 date_row">
-                            <input class="date" type="date" name="" id="">
+                            <input class="date" type="text" onfocus="this.type = 'Date'"
+                                onblur="if(!this.value)this.type='text'" placeholder="Select Date">
                         </div>
                         <div class="col-4 date_row">
-                            <input type="number"  name="" id="">
+                            <input type="number" min="1" oninput="this.value = passengerNumber(this.value)">
                         </div>
                     </div>
-    
+
                     <div class="row submit_location">
                         <button class="search">Search</button>
                     </div>
@@ -131,7 +132,7 @@
             </div>
             <div class="col-lg-4 discription">
                 <div class="icon_div">
-                    <i class="icon fa-solid fa-car fa-3x"></i>
+                    <i class="icon fa-solid fa-car fa-3x" style="padding-top: 3%;"></i>
                 </div>
                 <h3>Convenient and Sustainability</h3>
                 <p>Carpooling services offer convenient pick-up and drop
@@ -139,22 +140,25 @@
             </div>
         </div>
 
-    </section >
-    
+    </section>
+
     <!-- publish a ride -->
+    
     <section id="publish_ride">
         <div class="row container-fluid">
             <div class="col-6 publish-div1">
                 <div class="publish-img-div">
                     <img class="publish-ride-img" src="images/publish_ride.png" alt="publish-ride">
                 </div>
-                
+
             </div>
 
             <div class="col-6 publish-div2">
                 <div class="publish-discription">
-                    <h3>Driving alone in Your Car ...?</h3>
-                    <p>Sharing a carpool is a great way to travel.By sharing the ride, you can split the cost of gas, reduce traffic congestion, and lower your individual carbon emissions. Plus, carpooling can be a great way to meet new people and make your daily commute more enjoyable.</p>
+                    <h3>Driving alone ?<br>Carpool is here to help you !</h3>
+                    <p>Sharing a carpool is a great way to travel.By sharing the ride, you can split the cost of gas,
+                        reduce traffic congestion, and lower your individual carbon emissions. Plus, carpooling can be a
+                        great way to meet new people and make your daily commute more enjoyable.</p>
                     <div>
                         <button class="publish">Publish a Ride !</button>
                     </div>
