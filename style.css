@@ -243,3 +243,76 @@ hr{
 .publish-img-div{
     padding-left: 60px;
 }
+
+/* footer */
+
+footer {
+    margin: 0px;
+    background-image: linear-gradient(to bottom,rgb(180, 219, 220,1), white);
+}
+
+.about-left{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+
+.about-right{
+    padding-left: 72px;
+}
+
+.about-head{
+    padding-bottom: 30px;
+}
+
+.about-head h1{
+    font-weight: bold;
+}
+
+
+.about-details ul{
+    padding: 0;
+}
+.about-details ul li{
+    list-style: none;
+    padding: 2px 0px;
+    margin: 0;
+}
+.about-details ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #303030;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.carpool-img{
+    width: 50%;
+}
+
+.social-head{
+    color: #303030;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.social-icon{
+    margin: 0px 20px;
+}
+
+.terms-copyright{
+    margin-bottom: 80px;
+}
+
+.terms{
+    padding-left: 150px;
+    padding-top: 100px;
+}
+
+.copyright{
+    padding-top: 100px;
+    padding-left: 72px;
+}
