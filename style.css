@@ -248,7 +248,8 @@ hr{
 
 footer {
     margin: 0px;
-    background-image: linear-gradient(to bottom,rgb(180, 219, 220,1), white);
+    /* background-image: linear-gradient(to bottom,rgb(180, 219, 220,1), white); */
+    background-color: #e7e7e7;
 }
 
 .about-left{
@@ -304,7 +305,7 @@ footer {
 }
 
 .terms-copyright{
-    margin-bottom: 80px;
+    margin-bottom: 0;
 }
 
 .terms{
