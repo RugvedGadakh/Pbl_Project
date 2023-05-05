@@ -244,12 +244,48 @@ hr{
     padding-left: 60px;
 }
 
+/* benefits */
+
+
+#Benefits{
+    background-color: rgb(180, 219, 220,1);
+}
+
+#Benefits h1{
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+    font-size: 3rem;
+    font: bolder;
+}
+
+
+.benefits-box{
+    background-color: rgb(180, 219, 220,1);
+    padding: 5% 15%;
+    padding-bottom: 8%;
+}
+
+/* .carousel-control-next-icon{
+    background-color: black;
+    border-radius: 100%
+} */
+
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 100%
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+
 /* footer */
 
 footer {
     margin: 0px;
-    /* background-image: linear-gradient(to bottom,rgb(180, 219, 220,1), white); */
-    background-color: #e7e7e7;
+    background-image: linear-gradient(to bottom,rgb(180, 219, 220,1), white);
 }
 
 .about-left{
@@ -305,7 +341,7 @@ footer {
 }
 
 .terms-copyright{
-    margin-bottom: 0;
+    margin-bottom: 80px;
 }
 
 .terms{
