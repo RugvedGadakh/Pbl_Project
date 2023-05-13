@@ -1,0 +1,122 @@
+/* body */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+
+/* navbar */
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    box-shadow: 0 0 7px 1px rgb(104, 201, 233);
+}
+
+.navbar .navbar-brand{
+
+    margin: 0;
+    padding: 0;
+    padding-left: 80px;
+}
+.navbar .navbar-brand .logo{
+    width: 40%;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    color: black;
+    font-size: 1.2em;
+    font:bold;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: grey;
+}
+
+
+
+/* title */
+
+
+#title-sec{
+    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+}
+
+
+.HIW-img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 8px black;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.box{
+    margin: 10px 60px;
+    padding: 30px 10px;
+}
+
+.title-items h1{
+    font:900;
+    font-size: 4.3rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-items a{
+    text-decoration: none;
+}
+
+.title-items a p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* search ride */
+
+#Search-ride{
+    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+}
+
+#Search-ride h1{
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+    font-size: 3rem;
+    font: bolder;
+}
+
+#Search-ride .carousel-indicators button{
+    border: 0px;
+    background: black;
+}
+
+
+.method-box{
+    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+    padding: 5% 15%;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 100%
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 100%
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
