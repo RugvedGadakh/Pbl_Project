@@ -5,15 +5,17 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
+    background-image: linear-gradient(to right,white, rgb(180, 219, 220,1));
 }
 
 /* navbar */
 
 .navbar{
+    background: white;
     margin: 0;
     padding: 0;
     padding-top: 10px;
-    box-shadow: 0 0 7px 1px rgb(104, 201, 233);
+    box-shadow: 0 0 7px 1px rgb(180, 219, 220,1);
 }
 
 .navbar .navbar-brand{
@@ -44,7 +46,7 @@ body{
 
 
 #title-sec{
-    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
 }
 
 
@@ -84,7 +86,7 @@ body{
 /* search ride */
 
 #Search-ride{
-    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
 }
 
 #Search-ride h1{
@@ -92,7 +94,7 @@ body{
     padding-top: 10%;
     color: black;
     font-size: 3rem;
-    font: bolder;
+    font: bold;
 }
 
 #Search-ride .carousel-indicators button{
@@ -102,7 +104,7 @@ body{
 
 
 .method-box{
-    background-image: linear-gradient(to right,white, rgba(148,185,255,1));
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
     padding: 5% 15%;
 }
 
@@ -119,4 +121,123 @@ body{
 .carousel-inner{
     border-radius: 5px;
     box-shadow: 0 0 8px black;
+}
+
+/* payment section */
+
+#payment{
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
+}
+
+.payment-head{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: black;
+    font-size: 3rem;
+}
+
+.payment-img{
+    width: 50%;
+    box-shadow: 0 0 8px black;
+    border-radius: 6px;
+    margin-left: 180px;
+}
+
+.box-2{
+    padding: 30px 10px;
+}
+
+.payment-desc{
+    padding-left: 70px;
+}
+
+.payment-desc p{
+    font-size: 1rem;
+}
+
+/* hr */
+hr{
+
+    margin: auto;
+    margin-top: 60px;
+    border: dotted black 5px;
+    border-bottom: none;
+    width: 30%
+    
+}
+
+
+/* footer */
+
+footer {
+    padding-top: 5%;
+    margin: 0px;
+    background-image: linear-gradient(to right,white, rgb(180, 219, 220,1));
+}
+
+.about-left{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+
+.about-right{
+    padding-left: 72px;
+}
+
+.about-head{
+    padding-bottom: 30px;
+}
+
+.about-head h1{
+    font-weight: bold;
+}
+
+
+.about-details ul{
+    padding: 0;
+}
+.about-details ul li{
+    list-style: none;
+    padding: 2px 0px;
+    margin: 0;
+}
+.about-details ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #303030;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.carpool-img{
+    width: 50%;
+}
+
+.social-head{
+    color: #303030;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.social-icon{
+    margin: 0px 20px;
+}
+
+.terms-copyright{
+    margin-bottom: 50px;
+}
+
+.terms{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.copyright{
+    padding-top: 30px;
+    padding-left: 76px;
 }
