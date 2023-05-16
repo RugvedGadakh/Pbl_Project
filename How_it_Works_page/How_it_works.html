@@ -1,170 +1,290 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    
-    <!-- css stylesheets -->
-    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
-    <link rel="stylesheet" href="HIW_style.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
 
-    <!-- font awesome script -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+  <!-- css stylesheets -->
+  <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+  <link rel="stylesheet" href="HIW_style.css">
 
-    <!-- font -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+  <!-- font awesome script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
 
-    <!-- bootstrap scripts -->
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
-        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
-        crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
-        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
-        crossorigin="anonymous"></script>
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
-        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
-        crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
-        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
-        crossorigin="anonymous"></script>
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+  <!-- bootstrap scripts -->
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+    integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+    integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+    crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 </head>
+
 <body>
 
 
-    <!-- navbar -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#"><img class="logo" src="carpool.png" alt=""></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav">
-              <a class="nav-link active" href="#">Home</a>
-              <a class="nav-link" href="#">About</a>
-              <a class="nav-link" href="#">Contact us</a>
-            </div>
+  <!-- navbar -->
+  <nav class="navbar navbar-expand-lg bg-body-tertiary">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#"><img class="logo" src="carpool.png" alt=""></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+        aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-link active" href="/index.html">Home</a>
+          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#">Contact us</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <!-- title -->
+
+
+  <section class="container-fluid" id="title-sec">
+    <div class="title">
+      <div class="row box ">
+        <div class="col-6">
+          <div class="title-items">
+            <h1><strong>How It Works</strong></h1>
+            <a href="#Search-guide">
+              <p>1. Search a Ride</p>
+            </a>
+            <a href="">
+              <p>2. Publish a Ride</p>
+            </a>
+            <a href="">
+              <p>3. Pricing and Payments</p>
+            </a>
           </div>
         </div>
-      </nav>
+        <div class="col-6">
+          <div>
+            <img class="HIW-img" src="HIW.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </section>
 
 
 
-      <!-- title -->
+  <!-- search ride -->
+
+  <section id="Search-ride">
+
+    <h1>Guide for Ride Search...</h1>
+
+    <div class="method-box" id="Search-guide">
+      <div id="search-method" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+            aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#search-method" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#search-method" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </section>
 
 
-      <section class="container-fluid" id="title-sec">
-        <div class="title">
-            <div class="row box ">
-                <div class="col-6">
-                    <div class="title-items">
-                        <h1><strong>How It Works</strong></h1>
-                        <a href=""><p>1. Search a Ride</p></a>
-                        <a href=""><p>2. Publish a Ride</p></a>
-                        <a href=""><p>3. Pricing and Payments</p></a>
-                    </div>
-                </div>
-                <div class="col-6">
-                    <div>
-                        <img class="HIW-img" src="HIW.jpg" alt="">
-                    </div>
-                </div>
+  <section id="Search-ride">
+
+    <h1>Guide for Ride Search...</h1>
+
+    <div class="method-box">
+      <div id="search-method" class="carousel slide">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#search-method" data-bs-slide-to="0" class="active" aria-current="true"
+            aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#search-method" data-bs-slide-to="1" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#search-method" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          <button type="button" data-bs-target="#search-method" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="1.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="2.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="3.png" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="4.png" class="d-block w-100" alt="...">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#search-method" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#search-method" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+  </section>
+
+
+  <section class="container-fluid" id="payment">
+    <div class="payment-head">
+      <h1> How do pricing and payment work?</h1>
+    </div>
+    <div>
+      <div class="row box-2">
+        <div class="col-6 payment-desc">
+          <p>
+            Prices are fixed when a car owner offers a ride. They are non-negotiable and the same for all co-travellers.
+            The price is always based on a suggestion calculated by BlaBlaCar according to the itinerary and real costs
+            incurred by car owners. Car owners are free to adjust the price within reason, to account for the comfort of
+            their car or their willingness to make a detour. The price cannot exceed a ceiling set by BlaBlaCar, in
+            order to ensure costs are fairly shared and that car owners do not make a profit. Price per passenger is
+            limited to a partial contribution towards the cost of the journey, and does not allow the driver to make a
+            profit.
+            Payment is made in cash, in the car, generally at the journey's outset.
+          </p>
+        </div>
+        <div class="col-6 payment-box">
+          <img class="payment-img" src="payment.jpg" alt="payment">
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <hr>
+
+  <footer id="about">
+    <div class="row container-fluid">
+        <div class="col-6 about-left">
+            <div class="about-head">
+                <h1>About</h1>
+            </div>
+            <div class="about-details">
+                <ul>
+                    <li>
+                        <a href="How_it_works/How_it_works.html">How it Works</a>
+                    </li>
+
+                    <li>
+                        <a href="#">About us</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Help and Support</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Safety</a>
+                    </li>
+
+                    <li>
+                        <a href="#">Contact us</a>
+                    </li>
+                </ul>
+
+
+
+
+
             </div>
         </div>
-        
-      </section>
 
+        <div class="col-6 about-right">
+            <div class="footer-img">
+                <img class="carpool-img" src="carpool.png" alt="carpool-img">
+            </div>
 
+            <h4 class="social-head">Connect us on...</h4>
 
-      <!-- search ride -->
-
-      <section id="Search-ride">
-
-        <h1>Guide for Ride Search...</h1>
-
-        <div class="method-box">
-            <div id="search-method" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="4.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#search-method" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#search-method" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
+            <div class="social">
+                <span class="spanspace">
+                    <a href="www.facebook.com"><i class="social-icon fa-brands fa-facebook fa-2x"></i></a>
+                </span>
+                <span class="spanspace">
+                    <a href="www.instagram.com"><i class="social-icon fa-brands fa-instagram fa-2x"></i></a>
+                </span>
+                <span class="spanspace">
+                    <a href="www.twitter.com"><i class="social-icon fa-brands fa-twitter fa-2x"></i></a>
+                </span>
+                <span class="spanspace">
+                    <a href="www.gmail.com"><i class="social-icon fa-solid fa-envelope fa-2x"></i></a>
+                </span>
+                <span class="spanspace">
+                    <a href="www.linedin.com"><i class="social-icon fa-brands fa-linkedin fa-2x"></i></a>
+                </span>
+            </div>
         </div>
+    </div>
+    <div class="terms-copyright container-fluid">
+        <div class="row">
+            <div class="col-6 terms">
+                <p>Terms and Condition...</p>
+            </div>
 
-      </section>
+            <div class="col-6 copyright">
+                <p>Carpool,2023 ©</p>
+            </div>
 
-
-      <section id="Search-ride">
-
-        <h1>Guide for Ride Search...</h1>
-
-        <div class="method-box">
-            <div id="search-method" class="carousel slide">
-                <div class="carousel-indicators">
-                  <button type="button" data-bs-target="#search-method" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button type="button" data-bs-target="#search-method" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button type="button" data-bs-target="#search-method" data-bs-slide-to="2" aria-label="Slide 3"></button>
-                  <button type="button" data-bs-target="#search-method" data-bs-slide-to="3" aria-label="Slide 4"></button>
-                </div>
-                <div class="carousel-inner">
-                  <div class="carousel-item active">
-                    <img src="1.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="2.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="3.png" class="d-block w-100" alt="...">
-                  </div>
-                  <div class="carousel-item">
-                    <img src="4.png" class="d-block w-100" alt="...">
-                  </div>
-                </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#search-method" data-bs-slide="prev">
-                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#search-method" data-bs-slide="next">
-                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                  <span class="visually-hidden">Next</span>
-                </button>
-              </div>
         </div>
+    </div>
+</footer>
 
-      </section>
-    
+
 </body>
+
 </html>
