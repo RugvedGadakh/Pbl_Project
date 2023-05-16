@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="security.css">
+
+    <!-- font awesome script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+
+    <!-- navbar -->
+    <section id="header-nav">
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid nav-body">
+                <a class="navbar-brand" href="#"><img class="logo" src="carpool.png" alt=""></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                    <div class="navbar-nav">
+                        <a class="nav-link active" href="/index.html">Home</a>
+                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#">Contact us</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </section>
+
+
+    <section>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 list-items">
+                    <div id="security-list" class="d-flex flex-column gap-2 simple-list-example-scrollspy text-center">
+                        <h1><strong>Safety & Security</strong> </h1>
+                        <a class="p-1 rounded" href="#simple-list-item-1">How can I trust another member?</a>
+                        <a class="p-1 rounded" href="#simple-list-item-2">What you can do to avoid a scam</a>
+                        <a class="p-1 rounded" href="#simple-list-item-3">Online security tips</a>
+                        <a class="p-1 rounded" href="#simple-list-item-4">Report</a>
+                    </div>
+                </div>
+                <div class="col-9 description-sec">
+                    <div data-bs-spy="scroll" data-bs-target="#simple-list-example" data-bs-offset="0"
+                        data-bs-smooth-scroll="true" class="scrollspy-example" tabindex="0">
+                        <h4 id="simple-list-item-1"><strong>How can I trust another member?</strong> </h4>
+                        <p>Carpool is a community based on trust. Members add photos, bios and exchange ratings, helping
+                            you get to know a bit more about them before you travel.
+                            Will my passengers turn up on time? Is this member a good driver? Ratings give you an idea
+                            of what it’s like travelling with someone before you even step foot in the car!
+                            We also do our bit by verifying phone numbers, emails and ID.
+                        </p>
+                        <h4 id="simple-list-item-2"><strong>What you can do to avoid a scam</strong> </h4>
+                        <p><b>Never visit links sent by drivers</b>
+                            <br>Some fake drivers could try to make you pay outside our app by sending a link, a phone
+                            number or an email address.
+                        </p>
+                        <br>
+                        <p><b>For cash-only rides, always pay in the car</b>
+                            <br>Scammers are getting increasingly sophisticated in their attempts to get your money or
+                            payment details. Always pay in cash, in the car, upon departure.
+                        </p>
+                        <br>
+                        <p><b>If the driver sends you a link to pay for your ride
+                            </b>
+                            <br>You can respond: “I’m uncomfortable using the link you sent, I will follow Carpool’s
+                            recommendation and pay you in cash, in the car.”.
+                        </p>
+                        <h4 id="simple-list-item-3"><strong>Online security tips</strong> </h4>
+                        <p><b>Password quality</b>
+                            <br>
+                            Your password should be at least 8 characters with a mix of at least 1 letter, 1 number, and
+                            1 special character (e.g. #, @, &). Having complex and unique passwords on all your
+                            accounts, not just your Carpool account, will greatly reduce the chances of having security
+                            issues.
+                        </p>
+                        <br>
+                        <p><b>Off-site payments and messages</b>
+                            <br>
+                            Tips to keep you safe while exchanging messages with other members:
+                        <ul>
+                            <li>Only exchange on Carpool: Do not exchange on other platforms (WhatsApp, Messenger)
+                                before booking. </li>
+                            <li>Keep your personal info secure: Never share your personal information like phone number,
+                                email and payment details before booking a ride. </li>
+                            <li>Don’t follow links in messages: Never click on or open a link in suspicious or
+                                unsolicited messages on the BlaBlaCar platform or third party messaging apps.</li>
+                        </ul>
+                        </p>
+                        <h4 id="simple-list-item-4"><strong>Noticed something suspicious? Report it.</strong>  </h4>
+                        <p>Help us protect you from scams by reporting if you notice a suspicious message, if you have
+                            been scammed or if you think someone is trying to scam you.</p>
+                            <button>Report</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+</body>
+
+</html>
