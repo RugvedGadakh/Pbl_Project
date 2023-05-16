@@ -266,15 +266,6 @@ hr{
     padding-bottom: 8%;
 }
 
-/* .carousel-control-next-icon{
-    background-color: black;
-    border-radius: 100%
-} */
-
-.carousel-control-prev-icon{
-    background-color: black;
-    border-radius: 100%
-}
 
 .carousel-inner{
     border-radius: 5px;
@@ -346,10 +337,10 @@ footer {
 
 .terms{
     padding-left: 150px;
-    padding-top: 100px;
+    padding-top: 50px;
 }
 
 .copyright{
-    padding-top: 100px;
+    padding-top: 50px;
     padding-left: 72px;
 }
