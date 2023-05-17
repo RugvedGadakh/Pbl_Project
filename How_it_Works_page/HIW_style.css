@@ -4,7 +4,7 @@ body{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Roboto', sans-serif;
     background-image: linear-gradient(to right,white, rgb(180, 219, 220,1));
 }
 
@@ -153,7 +153,7 @@ body{
 }
 
 .payment-desc p{
-    font-size: 1rem;
+    font-size: 1.1rem;
 }
 
 /* hr */
