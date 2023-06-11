@@ -12,3 +12,15 @@ function setActivePage (num) {
     }
 }
 
+
+// login
+
+const greeting = document.querySelector('.btn-r');
+
+greeting.onclick = () => {
+    if(!sessionStorage.name){
+        location.href = 'Log_in_page/login.html';
+    } else{
+        greeting.innerHTML = `logout ${sessionStorage.name}`;  //temp
+    }
+}
