@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carpool: Get the perfect choice!</title>
+
+    <!-- css stylesheets -->
+    <link rel="stylesheet" href="	https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font awesome script -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js"></script>
+
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500&family=Roboto&display=swap"
+        rel="stylesheet">
+
+    <!-- bootstrap scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.5/dist/umd/popper.min.js"
+        integrity="sha384-Xe+8cL9oJa6tN/veChSP7q+mnSPaj5Bcu9mPX5F5xIGE0DVittaqT5lorf0EI7Vk"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.min.js"
+        integrity="sha384-kjU+l4N0Yf4ZOJErLsIcvOU2qSb74wXpOhqTvwVx3OElZRweTnQ6d31fXEoRD1Jy"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+
+</head>
+
+
+<body>
+    <!-- navbar -->
+    <header class="navbar" style="padding: 0px; background: #b4dbdc;">
+
+        <!-- Top Navbar -->
+        <div class="nav-top">
+            <div>
+                <a href="#"><img class="logo" src="images/logo.png" alt=""></a>
+                <div class="input-nav-location">
+                    <i class="fa-solid fa-location-dot"></i>
+                    <input type="text" placeholder="Tell us your location">
+                </div>
+            </div>
+
+            <div class="top-items">
+                <ul>
+                    <li><a href="search/search.html"><i class="fa-solid fa-magnifying-glass"></i> Search</a></li>
+                    <li><a href="publish/publish.html"><i class="fa fa-circle-plus"></i> Publish</a></a></li>
+                    <li><a class="navbar-brand" href="/ProfilePage/profilePage.html" style="cursor: default;">
+                        <img src="https://bootdey.com/img/Content/avatar/avatar7.png" alt="Admin" class="rounded-circle" width="38">                      </a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- Bottom Navbar -->
+        <div class="nav-bottom">
+            <ul class="bottom-nav">
+                <li class="active btm-nav-li-item" onclick="setActivePage(0)"><a class="item" href="index.html"><i
+                            class="fa-solid fa-house"></i> &nbsp;Home</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(1)"><a class="item" href="#about"><i
+                            class="fa fa-exclamation-circle"></i> &nbsp;About</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(2)"><a class="item" href="#features"><i
+                            class="fa-solid fa-gear"></i> &nbsp;Our Services</a></li>
+                <li class="btm-nav-li-item" onclick="setActivePage(3)"><a class="item" href="contact/contact.html"><i
+                            class="fa-solid fa-user"></i> &nbsp;Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- title -->
+    <section id="title-section">
+
+        <div class="row container-fluid">
+
+            <div class="col-6 container-fluid p-5">
+
+                <form class="row g-3 m-5 p-4 shadow" id="user-input">
+                    <div class="container">
+                        <label for="" class="form-label">Enter Ride Details :</label>
+                    </div>
+
+                    <div class="input-group">
+                        <label for="from-location" class="input-group-text"><i
+                                class="fa-solid fa-location-crosshairs"></i>
+                        </label>
+                        <input type="text" class="form-control" id="from-location" placeholder="Leaving From...">
+                    </div>
+
+                    <div class="input-group">
+                        <label for="to-location" class="input-group-text"><i
+                                class="fa-solid fa-location-crosshairs"></i>
+                        </label>
+                        <input type="text" class="form-control" id="to-location" placeholder="Going To...">
+                    </div>
+
+                    <div class="col-6 pl-2 pr-0 input-group">
+                        <input type="text" class="form-control" id="pick-date" placeholder="Select Date"
+                            onfocus="this.type = 'Date'" onblur="if(!this.value)this.type='text'">
+                        <label for="pick-date" class="input-group-text"><i class="fa-solid fa-calendar"></i>
+                        </label>
+                    </div>
+
+                    <div class="col-6 pl-3 pr-2  input-group">
+                        <input type="number" class="form-control" id="passenger-count" placeholder="Persons...">
+                        <label for="passenger-count" class="input-group-text"><i class="fa-solid fa-user"></i>
+                        </label>
+                    </div>
+
+                    <div class="col-12">
+                        <button class="btn" id="search-ride-btn" type="search">Search Ride</button>
+                    </div>
+                </form>
+
+            </div>
+
+            <div class="col-6">
+                <img class="title-img" src="images/pbl_title.png" alt="Title Image">
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Features -->
+
+    <section id="features">
+
+
+        <div class="row">
+            <div class="col-lg-4 discription">
+                <div class="icon_div">
+                    <img class="direction-icon" src="images/directions.png" alt="">
+                </div>
+                <h3>Your pick of rides at low prices</h3>
+                <p> find the perfect ride from our wide range of destinations and routes at low prices.</p>
+            </div>
+            <div class="col-lg-4 discription">
+                <div class="icon_div">
+                    <img class="verification-icon" src="images/Features_verifiedUser.png" alt="verified-person">
+                </div>
+                <h3>Trust who you travel with</h3>
+                <br>
+                <p>We check reviews, profiles and IDs, so you know who you’re travelling with and can book your ride at
+                    ease on our secure platform</p>
+            </div>
+            <div class="col-lg-4 discription">
+                <div class="icon_div">
+                    <i class="icon fa-solid fa-car fa-3x"></i>
+                </div>
+                <h3>Convenient and Sustainability</h3>
+                <p>Carpooling services offer convenient pick-up and drop
+                    -off locations, and the ability to schedule rides in advance.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- publish a ride -->
+    <section id="publish_ride">
+        <hr>
+        <div class="row container-fluid">
+            <div class="col-6 publish-div1">
+                <div class="publish-img-div">
+                    <img class="publish-ride-img" src="images/publish_ride.png" alt="publish-ride">
+                </div>
+
+            </div>
+
+            <div class="col-6 publish-div2">
+                <div class="publish-discription">
+                    <h3>Driving alone ?<br>Carpool is here to help you !</h3>
+                    <p>Sharing a carpool is a great way to travel.By sharing the ride, you can split the cost of gas,
+                        reduce traffic congestion, and lower your individual carbon emissions. Plus, carpooling can be a
+                        great way to meet new people and make your daily commute more enjoyable.</p>
+                    <div>
+                        <a href="publish/publish.html"><button class="publish-btn">Publish a Ride !</button></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <hr>
+    </section>
+
+
+
+    <!-- Carousel -->
+    <section id="Benefits">
+
+        <h1><strong>Why Carpool..???</strong> </h1>
+        <div class="benefits-box">
+            <div id="Benefits-slides" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="images/1.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/2.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/3.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/4.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="images/5.png" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#Benefits-slides"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#Benefits-slides"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- footer -->
+    <footer id="about">
+        <div class="row container-fluid">
+            <div class="col-6 about-left">
+                <div class="about-head">
+                    <h1>About</h1>
+                </div>
+                <div class="about-details">
+                    <ul>
+                        <li>
+                            <a href="How_it_works/How_it_works.html">How it Works</a>
+                        </li>
+
+                        <li>
+                            <a href="#">About us</a>
+                        </li>
+
+                        <li>
+                            <a href="#">Help and Support</a>
+                        </li>
+
+                        <li>
+                            <a href="security_page/security.html">Safety</a>
+                        </li>
+
+                        <li>
+                            <a href="contact/contact.html">Contact us</a>
+                        </li>
+                    </ul>
+
+
+
+
+
+                </div>
+            </div>
+
+            <div class="col-6 about-right">
+                <div class="footer-img">
+                    <img class="carpool-img" src="images/carpool.png" alt="carpool-img">
+                </div>
+
+                <h4 class="social-head">Connect us on...</h4>
+
+                <div class="social">
+                    <span class="spanspace">
+                        <a href="www.facebook.com"><i class="social-icon fa-brands fa-facebook fa-2x"></i></a>
+                    </span>
+                    <span class="spanspace">
+                        <a href="www.instagram.com"><i class="social-icon fa-brands fa-instagram fa-2x"></i></a>
+                    </span>
+                    <span class="spanspace">
+                        <a href="www.twitter.com"><i class="social-icon fa-brands fa-twitter fa-2x"></i></a>
+                    </span>
+                    <span class="spanspace">
+                        <a href="www.gmail.com"><i class="social-icon fa-solid fa-envelope fa-2x"></i></a>
+                    </span>
+                    <span class="spanspace">
+                        <a href="www.linedin.com"><i class="social-icon fa-brands fa-linkedin fa-2x"></i></a>
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div class="terms-copyright container-fluid">
+            <div class="row">
+                <div class="col-6 terms">
+                    <p>Terms and Condition...</p>
+                </div>
+
+                <div class="col-6 copyright">
+                    <p>Carpool,2023 ©</p>
+                </div>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+<script src="index.js"></script>
+
+</html>
