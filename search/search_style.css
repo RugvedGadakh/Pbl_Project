@@ -1,0 +1,338 @@
+/* body */
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    background-image: linear-gradient(to right,white, rgb(180, 219, 220,1));
+}
+
+/* navbar */
+
+.navbar{
+    background: white;
+    margin: 0;
+    padding: 0;
+    padding-top: 10px;
+    box-shadow: 0 0 7px 1px rgb(180, 219, 220,1);
+}
+
+.navbar .navbar-brand{
+
+    margin: 0;
+    padding: 0;
+    padding-left: 80px;
+}
+.navbar .navbar-brand .logo{
+    width: 40%;
+}
+
+
+.navbar .navbar-nav .nav-link{
+    color: black;
+    font-size: 1.2em;
+    font:bold;
+    padding: 0px 20px;
+}
+
+.navbar .navbar-nav .nav-link:hover{
+    color: grey;
+}
+
+
+
+/* title */
+
+
+#title-sec{
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
+}
+
+
+.HIW-img{
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0 0 8px black;
+}
+
+.title{
+    padding-top: 30px;
+    padding-bottom: 50px;
+}
+
+.box{
+    margin: 10px 60px;
+    padding: 30px 10px;
+}
+
+.title-items h1{
+    font:900;
+    font-size: 4.3rem;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.title-items a{
+    text-decoration: none;
+}
+
+.title-items a p{
+    text-decoration: none;
+    color: black;
+    font-size: 1.5rem;
+}
+
+/* search ride */
+
+#Search-ride{
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
+}
+
+#Search-ride h1{
+    text-align: center;
+    padding-top: 10%;
+    color: black;
+    font-size: 3rem;
+    font: bold;
+}
+
+#Search-ride .carousel-indicators button{
+    border: 0px;
+    background: black;
+}
+
+
+.method-box{
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
+    padding: 5% 15%;
+}
+
+.carousel-control-next-icon{
+    background-color: black;
+    border-radius: 100%
+}
+
+.carousel-control-prev-icon{
+    background-color: black;
+    border-radius: 100%
+}
+
+.carousel-inner{
+    border-radius: 5px;
+    box-shadow: 0 0 8px black;
+}
+
+/* payment section */
+
+#payment{
+    background-image: linear-gradient(to right,white,rgb(180, 219, 220,1));
+}
+
+.payment-head{
+    text-align: center;
+    padding-top: 5%;
+    padding-bottom: 2%;
+    color: black;
+    font-size: 3rem;
+}
+
+.payment-img{
+    width: 50%;
+    box-shadow: 0 0 8px black;
+    border-radius: 6px;
+    margin-left: 180px;
+}
+
+.box-2{
+    padding: 30px 10px;
+}
+
+.payment-desc{
+    padding-left: 70px;
+}
+
+.payment-desc p{
+    font-size: 1.1rem;
+}
+
+/* hr */
+hr{
+
+    margin: auto;
+    margin-top: 60px;
+    border: dotted black 5px;
+    border-bottom: none;
+    width: 30%
+    
+}
+
+
+/* footer */
+
+footer {
+    padding-top: 5%;
+    margin: 0px;
+    background-image: linear-gradient(to right,white, rgb(180, 219, 220,1));
+}
+
+.about-left{
+    padding-top: 30px;
+    padding-left: 150px;
+}
+
+
+.about-right{
+    padding-left: 72px;
+}
+
+.about-head{
+    padding-bottom: 30px;
+}
+
+.about-head h1{
+    font-weight: bold;
+}
+
+
+.about-details ul{
+    padding: 0;
+}
+.about-details ul li{
+    list-style: none;
+    padding: 2px 0px;
+    margin: 0;
+}
+.about-details ul li a{
+    list-style: none;
+    text-decoration: none;
+    color: #303030;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.carpool-img{
+    width: 50%;
+}
+
+.social-head{
+    color: #303030;
+    margin-top: 60px;
+    padding-left: 20px;
+    padding-bottom: 8px;
+    font-weight: bold;
+    font-size: 1.3rem;
+}
+
+.social-icon{
+    margin: 0px 20px;
+}
+
+.terms-copyright{
+    margin-bottom: 50px;
+}
+
+.terms{
+    padding-left: 150px;
+    padding-top: 30px;
+}
+
+.copyright{
+    padding-top: 30px;
+    padding-left: 76px;
+}
+
+#title-section {
+    background-image: linear-gradient(to bottom, rgb(101, 215, 235), white);
+}
+
+#user-input {
+    background-color: rgba(255, 255, 255, 0.3);
+    border-radius: 8px;
+}
+
+.input-group-text {
+    background-color: #2bb4d4;
+    color: white;
+}
+
+#search-ride-btn, .btn {
+    width: 100%;
+    background: #2bb4d4;
+    color: white;
+    border: none;
+}
+
+#search-ride-btn:hover {
+    background: #38c8e9;
+}
+
+.form-label {
+    color: rgb(2, 91, 180);
+    font-weight: bold;
+}
+
+
+
+
+
+/* features */
+
+#features{
+    padding: 5% 5%;
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    padding-bottom: 4%;
+
+}
+
+h3{
+    font-weight: bolder;
+    color: #2e2e2e;
+    padding-bottom: 40px;
+}
+
+.discription{
+    text-align: left;
+    padding: 5%;
+    color: #2e2e2e;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.icon{
+    color: black;
+    margin-bottom: 1rem;
+}
+
+.icon_div {
+    text-align: center;
+}
+
+.verification-icon{
+    width: 60px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.direction-icon{
+    width: 55px;
+    padding-bottom: 10px;
+    padding-top: 0px;
+}
+
+.search-box{
+    width: 50%;
+}
+
+.heading{
+    padding-top: 5%;
+    text-align: center;
+}
+
+#active {
+    text-decoration: underline;
+    color: rgb(21, 168, 188);
+    text-underline-offset: 0.5rem;
+}
