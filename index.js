@@ -12,6 +12,17 @@ function setActivePage (num) {
     }
 }
 
+// Valid number of passangers
+
+function passengerNumber(num) {
+    if(Math.abs(num) > 0) {
+        return Math.abs(num);
+    }
+    else {
+        return 1;
+    }
+}
+
 
 // login
 
@@ -24,3 +35,10 @@ greeting.onclick = () => {
         greeting.innerHTML = `logout ${sessionStorage.name}`;  //temp
     }
 }
+
+// const logOut = document.querySelector('.logout');
+
+// logOut.onclick = () => {
+//     sessionStorage.clear();
+//     location.reload();
+// }
